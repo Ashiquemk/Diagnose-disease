@@ -1,0 +1,4 @@
+pathlib
+google-generativeai
+streamlit
+python-dotenv
