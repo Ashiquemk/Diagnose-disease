@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
-load_dotenv()
+#load_dotenv()
 
 api_key=st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
