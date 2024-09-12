@@ -19,7 +19,6 @@ def generate_gemini(prompt, symptoms):
 
 
 st.title("Here is your disease diagnostic")
-st.write(st.secrets)
 symptoms=st.text_input("what are your synptoms?")
 if symptoms:
     response = generate_gemini(prompt, symptoms)
