@@ -4,9 +4,9 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 load_dotenv()
 
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=st.secrets['GOOGLE_API_KEY'])
 
-prompt ="""You are a disease diagnoser. You will be taking symptoms as input and you have to daignose the disease. also provide
+prompt ="""You are a disease predicter. You will be taking symptoms as input and you have to predict the disease. also provide
 also provide small information on the treatment of the disease. here is the symptoms of the disease: 
 """
 
